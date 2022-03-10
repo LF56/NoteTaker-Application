@@ -1,0 +1,19 @@
+{
+  "name": "notetaker-application",
+  "version": "1.0.0",
+  "description": "This is Module 11 Challenge, a note taker application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LF56/NoteTaker-Application.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LF56/NoteTaker-Application/issues"
+  },
+  "homepage": "https://github.com/LF56/NoteTaker-Application#readme"
+}
