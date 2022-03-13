@@ -1,16 +1,10 @@
 const router = require('express').Router();
-const fs = require('fs')
-const path = require('path')  
+const db = require('./dbroutes');
+
+router.use(db)
 
 
-router.get('/notes', (req, res) => {
-    fs.readFile('db/db.json','utf8', function(err,data){
-        if (req.query) {
-           res.json(data)
-        } else {
-            console.log(data);
-            res.json(data)
-        }
-    });
-    })
 module.exports = router;
+
+
+
